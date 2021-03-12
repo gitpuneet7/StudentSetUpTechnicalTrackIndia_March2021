@@ -129,6 +129,7 @@ public class AuthenticationServiceTest {
 	// not autherized
 	@Test
 	public void checkUser_Test_UnAutherized_DOB_Diff() throws Exception{
+		System.out.println("Inside CheckUser Method");
 		Boolean expected=false;
 		Boolean actual;
 
